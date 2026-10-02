@@ -1,0 +1,80 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+.env
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# LabVIEW generated/user files
+# ==============================
+
+*.aliases
+*.lvlps
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+# Generated reports
+# ==============================
+
+reports/
+output/
+
+# ==============================
+# RF measurement data
+# ==============================
+
+data/*
+!data/.gitkeep
+
+*.tdms
+*.tdms_index
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ==============================
+# OS / editor files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.bak
